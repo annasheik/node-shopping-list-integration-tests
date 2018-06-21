@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: gQaH3oRQJbGZqlO8JBnqVyN5zkrZMr8EzN/RyAmzSTrk06+HNTaY/D3YNqMxhkcBi2xR6oEdabV+3HwSqv8yoSWO/CZXxwU8y7qFFco/5RbotkHDIvVgieyGepi8d1uCiw23hP8XCbEx8QRatah6QLuwSzZissUuyFjAw6frQpZXgLLGHFIdVJRpSY9/tDOeIwql+VnfT1C3B+96+EeODMFpJQcCLilNPv/EAqkwZE3qHyB4LcrvUNot7pvPbF7UomZ4ItwTfCE2bkcjPOKV8dRipQ3zz/kR+Cnq/a472cBFvv/DZHrxvLJZJj2O0vMICq/ALAO8Li6mwiaU+CIrRyYv88M0ydesFBQ5ftR8d+INeU7Ol3gbQWdjzBKDYqFaWQU+EQajV9snIZFmkvGnoSmY4UF5jcPY6Rdo4bTCg4MOWblMMTL9LiWBN3BtYsEj3wcJs86gxluvwDx/3SIPurDx+NAiaXHZfTIy43CUEzcHDZosubeUpOjJtEVnO2GijmX1BBU7EUqXGHTnsS55kUhqbc30zKFiioZ1sf/oRwFE7SmEWud/BCGgIMCAvbBgQTfdwMJfR+8yrDwCCqInf879fSN1UlCAB3yWLvxifmJm+plnlHaD6Pk61OYlG9uMrx7XlY9KKVAHq4tdXpLp74pK+PaIWUherXkt14ygxTU=
+  app: shrouded-peak-23569
+  on:
+    repo: annasheik/node-shopping-list-integration-tests
